@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		6E0193D11EB1B8D200A268B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0193D01EB1B8D200A268B9 /* AppDelegate.swift */; };
-		6E0193D31EB1B8D200A268B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0193D21EB1B8D200A268B9 /* ViewController.swift */; };
 		6E0193D61EB1B8D200A268B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0193D41EB1B8D200A268B9 /* Main.storyboard */; };
 		6E0193D81EB1B8D200A268B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0193D71EB1B8D200A268B9 /* Assets.xcassets */; };
 		6E0193DB1EB1B8D200A268B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0193D91EB1B8D200A268B9 /* LaunchScreen.storyboard */; };
+		6E0193E31EB1BCD300A268B9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0193E21EB1BCD300A268B9 /* TableViewController.swift */; };
+		6E0193E51EB1BD0700A268B9 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0193E41EB1BD0700A268B9 /* AddViewController.swift */; };
+		6E0193E71EB1BD1400A268B9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0193E61EB1BD1400A268B9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E0193CD1EB1B8D200A268B9 /* Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Table.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0193D01EB1B8D200A268B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E0193D21EB1B8D200A268B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E0193D51EB1B8D200A268B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E0193D71EB1B8D200A268B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E0193DA1EB1B8D200A268B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E0193DC1EB1B8D200A268B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0193E21EB1BCD300A268B9 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6E0193E41EB1BD0700A268B9 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		6E0193E61EB1BD1400A268B9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				6E0193D01EB1B8D200A268B9 /* AppDelegate.swift */,
-				6E0193D21EB1B8D200A268B9 /* ViewController.swift */,
 				6E0193D41EB1B8D200A268B9 /* Main.storyboard */,
+				6E0193E21EB1BCD300A268B9 /* TableViewController.swift */,
+				6E0193E41EB1BD0700A268B9 /* AddViewController.swift */,
+				6E0193E61EB1BD1400A268B9 /* DetailViewController.swift */,
 				6E0193D71EB1B8D200A268B9 /* Assets.xcassets */,
 				6E0193D91EB1B8D200A268B9 /* LaunchScreen.storyboard */,
 				6E0193DC1EB1B8D200A268B9 /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E0193D31EB1B8D200A268B9 /* ViewController.swift in Sources */,
 				6E0193D11EB1B8D200A268B9 /* AppDelegate.swift in Sources */,
+				6E0193E31EB1BCD300A268B9 /* TableViewController.swift in Sources */,
+				6E0193E51EB1BD0700A268B9 /* AddViewController.swift in Sources */,
+				6E0193E71EB1BD1400A268B9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
